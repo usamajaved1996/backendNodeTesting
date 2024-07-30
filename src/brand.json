@@ -1,0 +1,37 @@
+{
+    "brands": [
+      {
+        "id": "62bd7ab2de5495e7ef2dd2cd",
+        "name": "Apple"
+      },
+      {
+        "id": "62bd7ab283077573adcca363",
+        "name": "Samsung"
+
+      },
+      {
+        "id": "62bd7ab29e9c84cd731e3759",
+        "name": "Oppo"
+
+      },
+      {
+        "id": "62bd7ab27479861a15353602",
+        "name": "Xiamoi"
+
+      },
+      {
+        "id": "62bd7ab2580273f8fdd55ba6",
+        "name": "Vivo"
+
+      },
+      {
+        "id": "62bd7ab2a7903a05be388a60",
+        "name": "Oneplus"
+      },
+      {
+        "id": "62bd7ab2a7903a05be388a62",
+        "name": "Other"
+      }
+    ]
+  }
+  
