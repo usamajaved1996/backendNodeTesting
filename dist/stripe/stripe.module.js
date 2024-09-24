@@ -6,20 +6,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AppModule = void 0;
+exports.StripeModule = void 0;
 const common_1 = require("@nestjs/common");
-const products_module_1 = require("./products/products.module");
-const stripe_module_1 = require("./stripe/stripe.module");
-const mongoose_1 = require("@nestjs/mongoose");
-let AppModule = class AppModule {
+const stripe_service_1 = require("./stripe.service");
+const stripe_controller_1 = require("./stripe.controller");
+let StripeModule = class StripeModule {
 };
-exports.AppModule = AppModule;
-exports.AppModule = AppModule = __decorate([
+exports.StripeModule = StripeModule;
+exports.StripeModule = StripeModule = __decorate([
     (0, common_1.Module)({
-        imports: [
-            mongoose_1.MongooseModule.forRoot('mongodb+srv://usamashah2077:6qlCet69kyPzdaIR@mernproject-pro.us5g4.mongodb.net/'),
-            products_module_1.ProductsModule, stripe_module_1.StripeModule
-        ],
+        controllers: [stripe_controller_1.StripeController],
+        providers: [stripe_service_1.StripeService],
     })
-], AppModule);
-//# sourceMappingURL=app.module.js.map
+], StripeModule);
+//# sourceMappingURL=stripe.module.js.map
